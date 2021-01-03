@@ -14,8 +14,10 @@
     <div class="main-navbar">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="<?= home_url() ?>">
-                    <img  width="120" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                <a class="navbar-brand d-md-flex align-items-center" href="<?= home_url() ?>">
+                    <div class="p-2">
+                        <img width="120" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                    </div>
                     <span style="color: #01549d" class="ml-1 d-none d-md-block"><?= get_bloginfo() ?></span>
                 </a>
                 <?= wp_nav_menu([
