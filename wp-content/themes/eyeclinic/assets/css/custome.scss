@@ -1,0 +1,9 @@
+.img-wrap {
+  width: 144px;
+  height: 144px;
+  overflow: hidden;
+  img{
+    display: flex;
+    object-fit: cover;
+  }
+}

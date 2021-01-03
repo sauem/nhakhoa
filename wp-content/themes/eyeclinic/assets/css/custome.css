@@ -1,0 +1,9 @@
+.img-wrap {
+  width: 144px;
+  height: 144px;
+  overflow: hidden; }
+  .img-wrap img {
+    display: flex;
+    object-fit: cover; }
+
+/*# sourceMappingURL=custome.css.map */
