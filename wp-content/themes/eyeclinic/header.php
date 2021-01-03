@@ -34,7 +34,7 @@
 
     <link rel="stylesheet" href="<?= ASSET ?>css/magnific-popup.min.css">
 
-    <link rel="stylesheet" href="<?= ASSET ?>css/style.css">
+    <link rel="stylesheet" href="<?= ASSET ?>css/style.css?v=<?= time()?>">
 
     <link rel="stylesheet" href="<?= ASSET ?>css/responsive.css">
     <link rel="stylesheet" href="<?= ASSET ?>css/custome.css?v=<?= time()?>">
