@@ -19,7 +19,8 @@
                         <img width="80" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
                     </div>
                     <span style="color: #01549d" class="ml-1 d-none d-md-block">
-                        SỞ Y TẾ HÀ NỘI<br>
+                        <span style="font-size: 18px;line-height: 25px"> SỞ Y TẾ HÀ NỘI</span>
+                        <br>
                         <?= get_bloginfo() ?>
                     </span>
                 </a>
