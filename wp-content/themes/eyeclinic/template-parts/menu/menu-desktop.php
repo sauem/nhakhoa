@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="<?= home_url() ?>">
-                    <img src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                    <img  width="150" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
                 </a>
                 <?= wp_nav_menu([
                     "menu" => "head",
