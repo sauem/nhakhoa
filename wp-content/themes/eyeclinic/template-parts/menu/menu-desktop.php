@@ -18,7 +18,10 @@
                     <div class="p-2">
                         <img width="80" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
                     </div>
-                    <span style="color: #01549d" class="ml-1 d-none d-md-block"><?= get_bloginfo() ?></span>
+                    <span style="color: #01549d" class="ml-1 d-none d-md-block">
+                        SỞ Y TẾ HÀ NỘI<br>
+                        <?= get_bloginfo() ?>
+                    </span>
                 </a>
                 <?= wp_nav_menu([
                     "menu" => "head",
