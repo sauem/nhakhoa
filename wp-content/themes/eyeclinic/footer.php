@@ -26,13 +26,13 @@
                     <div class="col-12">
                         <p> Địa chỉ: 37 Hai Bà Trưng, Hoàn Kiếm, Hà Nội</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p> Hotline : 0848 95 8866</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <p> Email: mathanoihospital@gmail.com</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p> Website :vienmathanoi.vn</p>
                     </div>
                 </div>
