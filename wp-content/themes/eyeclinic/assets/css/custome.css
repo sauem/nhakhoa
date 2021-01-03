@@ -11,7 +11,7 @@
   .copyright-area p {
     color: white; }
 
-.widget-area .item:hover .info .title a {
+.widget .item:hover .info .title a {
   color: #01549d; }
 
 /*# sourceMappingURL=custome.css.map */
