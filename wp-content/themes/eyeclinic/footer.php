@@ -17,26 +17,23 @@
     <div class="container">
         <div class="copyright-area-content">
             <p>
-                CỔNG THÔNG TIN ĐIỆN TỬ - BẢN QUYỀN THUỘC VỀ BỆNH VIỆN MẮT TRUNG ƯƠNG
+                CỔNG THÔNG TIN ĐIỆN TỬ - BẢN QUYỀN THUỘC VỀ BỆNH VIỆN MẮT HÀ NỘI
             </p>
         </div>
         <div class="row text-white text-center">
             <div class="col-md-8 mt-2 offset-2">
                 <div class="row">
                     <div class="col-12">
-                        <p> Địa chỉ: 85 Phố Bà Triệu – P.Nguyễn Du – Q.Hai Bà Trưng – TP.Hà Nội</p>
+                        <p> Địa chỉ: 37 Hai Bà Trưng, Hoàn Kiếm, Hà Nội</p>
                     </div>
-                    <div class="col-md-3">
-                        <p> Tel: 024 3826 3966</p>
+                    <div class="col-md-4">
+                        <p> Hotline : 0848 95 8866</p>
                     </div>
-                    <div class="col-md-3">
-                        <p> Fax: 024 3945 4956</p>
+                    <div class="col-md-4">
+                        <p> Email: mathanoihospital@gmail.com</p>
                     </div>
-                    <div class="col-md-3">
-                        <p> Email: bvmtw@vnio.vn</p>
-                    </div>
-                    <div class="col-md-3">
-                        <p> Website: www.vnio.vn</p>
+                    <div class="col-md-4">
+                        <p> Website :vienmathanoi.vn</p>
                     </div>
                 </div>
             </div>
