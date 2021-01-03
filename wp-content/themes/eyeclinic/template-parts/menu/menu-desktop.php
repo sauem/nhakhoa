@@ -16,6 +16,7 @@
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="<?= home_url() ?>">
                     <img  width="120" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                    <span style="color: #01549d" class="ml-1 d-none d-md-block"></span>
                 </a>
                 <?= wp_nav_menu([
                     "menu" => "head",
