@@ -4,7 +4,7 @@
             <div class="main-responsive-menu">
                 <div class="logo">
                     <a href="/">
-                        <img src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                        <img width="150" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
                     </a>
                 </div>
             </div>
