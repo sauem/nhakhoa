@@ -5,6 +5,7 @@
                 <div class="logo">
                     <a href="/">
                         <img width="120" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                        <span style="color: #01549d" class="ml-1 d-none d-md-block"></span>
                     </a>
                 </div>
             </div>
