@@ -4,7 +4,7 @@
             <div class="main-responsive-menu">
                 <div class="logo">
                     <a href="/">
-                        <img width="150" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                        <img width="120" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
                     </a>
                 </div>
             </div>
@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="<?= home_url() ?>">
-                    <img  width="150" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
+                    <img  width="120" src="<?= get_logo() ?>" alt="<?= get_bloginfo() ?>">
                 </a>
                 <?= wp_nav_menu([
                     "menu" => "head",
