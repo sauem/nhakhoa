@@ -15,6 +15,21 @@
  */
 
 get_header();
+$categories = get_categories([
+    'hide_empty' => true,
+]);
+$category_show = [];
+foreach ($categories as $category) {
+    $is_home = get_term_meta($category->term_id, 'show_home', TRUE);
+    if ($is_home) {
+        $category_show[] = [
+            'term' => $category->term_id,
+            'type' => get_term_meta($category->term_id, 'show_type', TRUE)
+        ];
+    }
+}
+
+
 ?>
     <section class="main-news-area">
         <div class="container">
@@ -221,7 +236,8 @@ get_header();
                                 <?php endwhile; ?>
                             </div>
                         </div>
-                    <?php endif; ?>
+                    <?php endif;
+                    wp_reset_query(); ?>
                 </div>
                 <div class="col-lg-4">
                     <aside class="widget-area">

@@ -83,10 +83,11 @@ function getPaginate($qr)
 
     if ($qr->max_num_pages > 1) {
         $html .= '<div class="pagination-area">';
+        $html .= '<ul class="pagination">';
         if ($current_page > 1) {
             $html .= $list[0];
         }
-        $html .= '<ul class="pagination">';
+
 
         if ($current_page == $qr->max_num_pages) {
             array_shift($pagin);
@@ -115,12 +116,3 @@ function getPaginate($qr)
     }
     echo $html;
 }
-function remove_page_from_query_string($query_string)
-{
-    if ($query_string['name'] == 'page' && isset($query_string['page'])) {
-        unset($query_string['name']);
-        $query_string['paged'] = $query_string['page'];
-    }
-    return $query_string;
-}
-add_filter('request', 'remove_page_from_query_string');

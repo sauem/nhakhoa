@@ -1,5 +1,6 @@
 <?php
 get_header();
+
 ?>
 
 <section class="news-details-area ptb-50">
@@ -32,7 +33,7 @@ get_header();
                             </div>
                         </div>
                     <?php }
-                } ?>
+                }?>
             </div>
             <div class="col-lg-4">
                 <?php get_template_part('template-parts/sidebar') ?>
