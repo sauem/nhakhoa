@@ -1,7 +1,4 @@
 <?php
-/**
- * Template Name: Liên Hệ
- */
 get_header();
 ?>
 <section class="contact-area ptb-50">
