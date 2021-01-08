@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="<?= ASSET ?>css/responsive.css">
     <link rel="stylesheet" href="<?= ASSET ?>css/custome.css?v=<?= time()?>">
 
-    <link rel="icon" type="image/png" href="<?= ASSET ?>img/favicon.png">
+    <link rel="icon" type="image/png" href="<?= get_site_icon_url() ?>">
 
     <?php wp_head(); ?>
 </head>

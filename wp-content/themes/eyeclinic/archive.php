@@ -10,7 +10,7 @@ get_header();
                 <h2><?= single_term_title() ?></h2>
                 <ul>
                     <li><a href="/">Trang chủ</a></li>
-                    <li><?= get_the_archive_title()?></li>
+                    <li><?= get_the_archive_title() ?></li>
                 </ul>
             </div>
         </div>
@@ -20,13 +20,11 @@ get_header();
             <div class="row">
                 <div class="col-lg-8">
                     <?php
-                    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-                    $query = new WP_Query([
-                        'category' => $cat,
-                        'posts_per_page' => 9,
-                        'post_status' => 'publish',
-                        'paged' => $paged,
-                    ]);
+                    //                    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                    //                    $query = new WP_Query([
+                    //                        'category' => $cat,
+                    //                        'paged' => $paged,
+                    //                    ]);
                     if (have_posts()) {
                         while (have_posts()) {
                             the_post();
@@ -53,9 +51,15 @@ get_header();
                             </div>
                             <?php
                         }
-                        echo getPaginate($query);
+                        echo '<div class="pagination-area">';
+                        echo paginate_links(array(
+                            'prev_text' => '<i class=\'bx bx-chevron-left\'></i>',
+                            'next_text' => '<i class=\'bx bx-chevron-right\'></i>',
+                            'mid_size' => 3
+                        ));
+                        echo '</div>';
                     }
-                    wp_reset_postdata();
+                    // wp_reset_postdata();
                     ?>
                 </div>
                 <div class="col-lg-4">

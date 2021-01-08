@@ -29,7 +29,7 @@ get_header();
                                 <span><?= get_the_date() ?></span>
                                 <h3><?= get_the_title() ?></h3>
                                 <hr>
-                                <?= get_the_content() ?>
+                                <?php the_content() ?>
                             </div>
                         </div>
                     <?php }
